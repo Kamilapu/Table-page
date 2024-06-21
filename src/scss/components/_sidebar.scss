@@ -1,0 +1,76 @@
+.sidebar {
+  grid-area: sidebar;
+
+  padding-top: 36rem;
+  padding-bottom: 76rem;
+  padding-left: 28rem;
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+  background: var(--white-color);
+  width: 306px;
+
+  &__logo {
+    display: flex;
+    gap: 8rem;
+
+    padding-bottom: 64rem;
+  }
+
+  &__logo-title {
+    font-weight: 600;
+    font-size: 26rem;
+    letter-spacing: 0.01em;
+    color: var(--black-color);
+  }
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 40rem;
+
+    padding-bottom: 597rem;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+  }
+
+  &__link {
+    font-weight: 500;
+    font-size: 14rem;
+    letter-spacing: -0.01em;
+    color: var(--text-color);
+  }
+}
+.sidebar-user {
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+
+  &__photo {
+    border-radius: 100%;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 14rem;
+    letter-spacing: 0.01em;
+    color: var(--black-color);
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 12rem;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+}
+
+.version {
+  padding-left: 4rem;
+  font-weight: 500;
+  font-size: 10rem;
+  letter-spacing: -0.01em;
+  color: #838383;
+}
