@@ -1,0 +1,31 @@
+.content {
+  grid-area: content;
+  padding: 41rem 95rem 258rem 71rem;
+  background: var(--bckg-color);
+
+  &__greeting {
+    padding-bottom: 51rem;
+    font-weight: 500;
+    font-size: 24rem;
+    color: var(--black-color);
+  }
+}
+.content-info {
+  border-radius: 30rem;
+  fill: var(--white-color);
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+
+  &__table-title {
+    font-weight: 600;
+    font-size: 22rem;
+    letter-spacing: -0.01em;
+    color: var(--black-color);
+  }
+
+  &__table-description {
+    font-weight: 400;
+    font-size: 14rem;
+    letter-spacing: -0.01em;
+    color: #16c098;
+  }
+}
