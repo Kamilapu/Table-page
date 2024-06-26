@@ -1,6 +1,6 @@
 .content {
   grid-area: content;
-  padding: 41rem 95rem 258rem 71rem;
+  padding: 41rem 95rem 0rem 71rem;
   background: var(--bckg-color);
 
   &__greeting {
@@ -10,6 +10,42 @@
     color: var(--black-color);
   }
 }
+.content-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40rem;
+}
+.content-search {
+  &__field {
+    display: block;
+    position: relative;
+  }
+
+  &__input {
+    width: 184rem;
+    padding: 7rem 8rem 7rem 40rem;
+    border-radius: 10rem;
+    background: #f9fbff;
+
+    font-weight: 400;
+    font-size: 12rem;
+    letter-spacing: -0.01em;
+    color: var(--black-color);
+
+    &::placeholder {
+      color: var(--table-text);
+    }
+  }
+
+  &__search {
+    position: absolute;
+    top: 10%;
+    cursor: pointer;
+    left: 8rem;
+  }
+}
+
 .content-info {
   border-radius: 30rem;
   background: var(--white-color);
@@ -29,6 +65,7 @@
     font-size: 14rem;
     letter-spacing: -0.01em;
     color: #16c098;
+   
   }
 }
 
